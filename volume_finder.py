@@ -32,3 +32,4 @@ if target:
     # Correct the typo from st.number_inpu to target
     st.success(f"M：{m}杯,L：{l}杯")
     st.success(f"偏差 = {total - target} ml")
+    st.markdown(f"""**M:** {m} 杯**L:** {l} 杯  **= {diff:+} ml**""")
