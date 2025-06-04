@@ -39,7 +39,8 @@ if target:
         background-color: #5B5B5B;
         font-size: 20px;
         font-weight: bold;
-        max-width: 90%;
+        width: auto;
+        max-width: 100%;
     ">
     M：{m} 杯<br>
     L：{l} 杯<br>
