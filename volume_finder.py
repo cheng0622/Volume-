@@ -33,5 +33,19 @@ if target:
     st.markdown(f"""
     **M:** {m} 杯
     **L:** {l} 杯  
-    **偏差 = {target-total} ml**
+    **剩下 {target-total} ml**
     """)
+    st.markdown(f"""
+    <div style="
+        border: 2px solid #28a745;
+        border-radius: 12px;
+        padding: 20px;
+        background-color: #e6f4ea;
+        font-size: 20px;
+        font-weight: bold;
+        ">
+        M：{m} 杯<br>
+        L：{l} 杯<br>
+        剩下{target-total} ml
+        </div>
+        """, unsafe_allow_html=True)
