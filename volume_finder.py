@@ -23,12 +23,12 @@ def find_closest_combination(target_volume, m_size=450, l_size=650):
     return best_m, best_l, best_m * m_size + best_l * l_size
 
 # Streamlit 介面 - This section was previously indented incorrectly
-st.title("M/L 容器數量最佳組合計算器")
-st.write("輸入總容量，我們幫你找出最接近的 M (450ml) 和 L (650ml) 組合")
+st.title("成品損耗杯數計算")
 
-target = st.number_input("請輸入目標總容量 (ml)", min_value=1, step=1)
+target = st.number_input("淨損耗(ml)", min_value=1, step=1)
 
 if target:
     m, l, total = find_closest_combination(target)
     # Correct the typo from st.number_inpu to target
-    st.success(f"最接近的組合：M = {m} 杯, L = {l} 杯，總容量 = {total} ml，偏差 = {total - target} ml")
+    st.success(f"M：{m}杯 , L：{l}杯")
+    st.success(f"偏差 = {total - target} ml")
