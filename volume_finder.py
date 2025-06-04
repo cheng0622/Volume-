@@ -31,11 +31,6 @@ if target:
     m, l, total = find_closest_combination(target)
     # Correct the typo from st.number_inpu to target
     st.markdown(f"""
-    **M:** {m} 杯
-    **L:** {l} 杯  
-    **剩下 {target-total} ml**
-    """)
-    st.markdown(f"""
     <div style="
         display: inline-block
         border: 2px solid #FFF7FF;
@@ -44,7 +39,7 @@ if target:
         background-color: #5B5B5B;
         font-size: 20px;
         font-weight: bold;
-        max-width: 90%
+        max-width: 90%;
     ">
     M：{m} 杯<br>
     L：{l} 杯<br>
