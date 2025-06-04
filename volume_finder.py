@@ -37,10 +37,10 @@ if target:
     """)
     st.markdown(f"""
     <div style="
-        border: 2px solid #28a745;
+        border: 2px solid #FFF7FF;
         border-radius: 12px;
         padding: 20px;
-        background-color: #e6f4ea;
+        background-color: #5B5B5B;
         font-size: 20px;
         font-weight: bold;
         ">
