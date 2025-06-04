@@ -37,6 +37,7 @@ if target:
     """)
     st.markdown(f"""
     <div style="
+        display: inline-block
         border: 2px solid #FFF7FF;
         border-radius: 12px;
         padding: 20px;
@@ -44,9 +45,9 @@ if target:
         font-size: 20px;
         font-weight: bold;
         max-width: 90%
-        ">
-        M：{m} 杯<br>
-        L：{l} 杯<br>
-        剩下{target-total} ml
-        </div>
-        """, unsafe_allow_html=True)
+    ">
+    M：{m} 杯<br>
+    L：{l} 杯<br>
+    剩下{target-total} ml
+    </div>
+    """, unsafe_allow_html=True)
