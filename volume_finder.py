@@ -32,7 +32,7 @@ if target:
     # Correct the typo from st.number_inpu to target
     st.markdown(f"""
     <div style="
-        display: inline-block
+        display: inline-block;
         border: 2px solid #FFF7FF;
         border-radius: 12px;
         padding: 20px;
