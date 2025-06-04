@@ -34,4 +34,5 @@ if target:
     st.success(f"偏差 = {total - target} ml")
     st.markdown(f"""**M:** {m} 杯
     **L:** {l} 杯  
-    **偏差 = {total-target} ml**""")
+    **偏差 = {total-target} ml**
+    """)
